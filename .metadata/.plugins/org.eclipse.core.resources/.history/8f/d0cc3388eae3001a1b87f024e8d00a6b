@@ -1,0 +1,27 @@
+package Time;
+
+public class Time {
+	private int hora;
+	private int minuto;
+	private int segundo;
+	
+	public String getTime() {
+		this.hora = hora;
+		this.minuto = minuto;
+		this.segundo = segundo;
+	}
+
+	public void setTime(int hora, int minuto, int segundo) {
+		
+	}
+	
+	public String exibirHoraUniversal() {
+		System.out.println(hora+":"+minuto+":"+segundo);
+	}
+	
+	public String exibirHoraPadrao() {
+		if ((hora >=0) && (hora < 12)) {
+			
+		}
+	}
+}

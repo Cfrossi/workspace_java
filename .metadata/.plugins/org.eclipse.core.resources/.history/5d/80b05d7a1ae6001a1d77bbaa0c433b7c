@@ -1,0 +1,11 @@
+package Model;
+
+public class Conta {
+	private String nomeTitular;
+	private String cpf;
+	private String numConta;
+	private float saldo;
+	
+	
+
+}

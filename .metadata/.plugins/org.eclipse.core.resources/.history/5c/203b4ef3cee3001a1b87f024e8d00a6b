@@ -1,0 +1,13 @@
+package core;
+
+public class Funcionario {
+	private int NumFunc;
+	private String nome;
+	private String cargo;
+	private double ValorHora;
+	private int Numhoras;
+	
+	
+	
+
+}

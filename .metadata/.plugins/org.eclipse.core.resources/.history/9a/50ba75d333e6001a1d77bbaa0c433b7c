@@ -1,0 +1,17 @@
+package CartaoCash;
+
+public class CartaoCashback extends CartaoPrePago {
+	private int tipo;
+
+	public CartaoCashback(String numeroCartao, String nomeTitular, int anoValidade, int mesValidade, double saldo, int tipo) {
+		super(numeroCartao, nomeTitular, anoValidade, mesValidade, saldo);
+		this.tipo = tipo;
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+	
+
+}

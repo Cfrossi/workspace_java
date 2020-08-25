@@ -1,0 +1,12 @@
+package model;
+
+public class QuestaoMultiplaEscolha extends QuestaoSimples {
+	
+	String alternativa1;
+	String alternativa2;
+	String alternativa3;
+	String alternativa4;
+	
+	
+
+}

@@ -1,0 +1,17 @@
+package Userinterface;
+
+import Model.Conta;
+
+public class Banco {
+	public static void main(String args[]) {
+		Conta c1;
+		
+		c1 = new Conta();
+		c1.getNomeTitular("Caio");
+		
+		
+		
+		
+	}
+
+}

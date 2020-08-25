@@ -1,0 +1,13 @@
+package Userinterface;
+
+import Model.Conta;
+
+public class Banco {
+	public static void main(String args[]) {
+		Conta c1;
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+package TimeTeste;
+import java.util.Scanner;
+
+import Time.Time;
+
+public class TimeTeste {
+	public static void main(String args[]) {
+		Scanner teclado;
+		teclado = new Scanner(System.in);
+		
+		
+		Time padrao,universal;
+		
+
+		
+		
+		
+	}
+
+}

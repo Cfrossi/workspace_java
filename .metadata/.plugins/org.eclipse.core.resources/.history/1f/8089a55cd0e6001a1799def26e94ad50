@@ -1,0 +1,24 @@
+package testes;
+
+public class teste {
+	public static void main(String args[]) {
+		
+		int[] lista;
+		lista = new int [5];
+		
+		lista[0] = 1;
+		lista[1] = 2;
+		lista[2] = 3;
+		lista[3] = 4;
+		lista[4] = 5;
+		
+		for(int numeros: lista) {
+			for(int posicao = 0; posicao< lista.length; posicao++) {
+				numeros = lista[posicao];
+				System.out.println(numeros);
+				
+			}
+		}
+	}
+
+}

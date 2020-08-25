@@ -1,0 +1,7 @@
+package datainterface;
+
+public interface interfaceBD {
+	public void salvarNobanco();
+	public void recuperarDoBanco();
+
+}

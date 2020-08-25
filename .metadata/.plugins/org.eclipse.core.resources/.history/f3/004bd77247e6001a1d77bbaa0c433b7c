@@ -1,0 +1,54 @@
+package model;
+
+public class QuestaoMultiplaEscolha extends QuestaoSimples {
+	
+	String alternativa1;
+	String alternativa2;
+	String alternativa3;
+	String alternativa4;
+	
+	
+	public QuestaoMultiplaEscolha(String enunciado, String resposta,String alternativa1,
+			String alternativa2,String alternativa3, String alternativa4) {
+		super(enunciado, resposta);
+		this.alternativa1 = alternativa1;
+		this.alternativa2 = alternativa2;
+		this.alternativa3 = alternativa3;
+		this.alternativa4 = alternativa4;
+		
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	public String aplicarQuestao() {
+		return "pergunta: " + enunciado;
+		return "Alternativa 1: "+ alternativa1;
+		return "Alternativa 2: "+ alternativa2;
+		return "Alternativa 3: "+ alternativa3;
+		return "Alternativa 4: "+ alternativa4;
+	}
+	
+	
+	public boolean corrigir(String respostaAluno) {
+		
+		switch(respostaAluno) {
+		case alternativa1 .equals(respostaAluno):
+			return true;
+			break;
+		case alternativa2 .equals(respostaAluno):
+			return true;
+			break;
+			
+		case alternativa3 .equals(respostaAluno):
+			return true;
+			break;
+			
+		case alternativa4 .equals(respostaAluno):
+			return true;
+			break;
+		
+		}
+	}
+	
+
+}

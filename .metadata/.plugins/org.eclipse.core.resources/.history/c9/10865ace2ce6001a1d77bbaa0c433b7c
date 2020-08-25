@@ -1,0 +1,10 @@
+package Model;
+
+public class ContaEspecial extends Conta{
+	private float limite;
+	
+	public boolean deitar(float valor) {
+		
+	}
+
+}

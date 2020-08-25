@@ -1,0 +1,14 @@
+package userinterface;
+
+import.default.Fun
+
+public class Home {
+	public static void main() {
+		Funcionario lista[] = new Funcionario[4];
+		
+		lista[0] = new Chefe(1,"Caio",10000,10,850);
+		
+		
+	}
+
+}

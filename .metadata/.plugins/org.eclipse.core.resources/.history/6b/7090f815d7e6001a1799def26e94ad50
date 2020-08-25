@@ -1,0 +1,33 @@
+
+public class Horista {
+	private float salarioBase;
+	private float comissao;
+	
+	
+	public float getSalarioBase() {
+		return salarioBase;
+	}
+	public void setSalarioBase(float salarioBase) {
+		this.salarioBase = salarioBase;
+	}
+	public float getComissao() {
+		return comissao;
+	}
+	public void setComissao(float comissao) {
+		this.comissao = comissao;
+	}
+	
+	
+	public Horista(float salarioBase, float comissao) {
+		super();
+		this.salarioBase = salarioBase;
+		this.comissao = comissao;
+	}
+	
+	
+	public void calcularSalario() {
+		salarioBase = salarioBase + salarioBase * comissao / 100;
+	}
+	
+
+}

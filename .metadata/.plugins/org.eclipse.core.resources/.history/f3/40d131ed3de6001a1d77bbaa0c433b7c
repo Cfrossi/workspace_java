@@ -1,0 +1,31 @@
+package userinterface;
+
+import CartaoCash.CartaoCashback;
+import CartaoCash.CartaoPrePago;
+
+public class Banco {
+	public static void main(String args[]) {
+		CartaoPrePago cartao1;
+		CartaoCashback cartao2;
+		
+		//cartao1 = new CartaoPrePago("123", "Caio", 2021, 10, 1000.0);
+		
+		//System.out.println(cartao1);
+		
+		//cartao1.adicionarCredito(500);
+		//System.out.println(cartao1);
+		
+		//cartao1.comprar(200);
+		//System.out.println(cartao1);
+		
+		
+		cartao2 = new CartaoCashback("567", "Fernando", 2022, 10, 2000.0, 1);
+		System.out.println(cartao2);
+		
+		cartao2.comprar(1000);
+		System.out.println(cartao2);
+		
+		
+	}
+
+}

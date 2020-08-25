@@ -1,0 +1,36 @@
+package TimeTeste;
+import java.util.Scanner;
+
+import Time.Time;
+
+public class TimeTeste {
+	public static void main(String args[]) {
+		Scanner teclado;
+		teclado = new Scanner(System.in);
+		int hora,minuto,segundo;
+		
+		Time padrao;
+		Time universal;
+		
+		padrao = new Time();
+		universal = new Time();
+		
+		
+		System.out.println("Digite a Hora: ");
+		System.out.println("");
+		hora = teclado.nextInt();
+		
+		
+		System.out.println("Digite a hora: ");
+		minuto = teclado.nextInt();
+		
+		System.out.println("Digite os minutos: ");
+		segundo = teclado.nextInt();
+		
+
+		
+	
+		teclado.close();
+	}
+
+}

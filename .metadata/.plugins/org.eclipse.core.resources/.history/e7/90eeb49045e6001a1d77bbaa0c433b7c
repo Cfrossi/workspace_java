@@ -1,0 +1,21 @@
+package model;
+
+public class QuestaoMultiplaEscolha extends QuestaoSimples {
+	
+	String alternativa1;
+	String alternativa2;
+	String alternativa3;
+	String alternativa4;
+	
+	
+	public QuestaoMultiplaEscolha(String enunciado, String resposta,String alternativa1,
+			String alternativa2,String alternativa3, String alternativa4) {
+		super(enunciado, resposta);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	
+	
+
+}

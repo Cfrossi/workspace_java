@@ -1,0 +1,28 @@
+package userinterface;
+
+import model.QuestaoSimples;
+import java.util.Scanner;
+
+public class prova {
+	public static void main(String args[]) {
+		String aluno;
+		Scanner teclado;
+		teclado  = new Scanner(System.in);
+				
+		QuestaoSimples q1,q2;
+		
+		q1 = new QuestaoSimples("O palmeiras tem mundial: ", "não");
+		q2 = new QuestaoSimples("O Pameiras ganhou título com fax", "sim");		
+		
+		System.out.println("O palmeiras tem mundial: ");
+		aluno = teclado.nextLine();
+		
+		if (q1.corrigir(aluno)) {
+			System.out.println("Você acertou a resposta");
+		}
+		else {
+			System.out.println("Você errou a resposta");
+		}
+	}
+
+}

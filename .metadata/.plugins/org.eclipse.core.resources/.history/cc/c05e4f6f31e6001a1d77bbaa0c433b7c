@@ -1,0 +1,9 @@
+package CartaoPre;
+
+public class CartaoCashback extends CartaoPrePago {
+	private int GOLD,SILVER,BRONZE;
+	
+	
+	
+
+}

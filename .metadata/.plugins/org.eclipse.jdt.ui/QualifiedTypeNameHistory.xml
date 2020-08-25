@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="Pessoa"/>
+<fullyQualifiedTypeName name="core.Produto"/>
+<fullyQualifiedTypeName name="core.Funcionario"/>
+<fullyQualifiedTypeName name="Time.Time"/>
+<fullyQualifiedTypeName name="Model.Conta"/>
+<fullyQualifiedTypeName name="CartaoCash.CartaoPrePago"/>
+<fullyQualifiedTypeName name="CartaoPre.CartaoCashback"/>
+<fullyQualifiedTypeName name="CartaoCash.CartaoCashback"/>
+<fullyQualifiedTypeName name="model.QuestaoSimples"/>
+<fullyQualifiedTypeName name="model.QuestaoMultiplaEscolha"/>
+<fullyQualifiedTypeName name="model.Funcionario"/>
+<fullyQualifiedTypeName name="model.Chefe"/>
+<fullyQualifiedTypeName name="datainterface.interfaceBD"/>
+<fullyQualifiedTypeName name="datainterface.InterfaceBD"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="model.Comissionado"/>
+<fullyQualifiedTypeName name="model.Horista"/>
+<fullyQualifiedTypeName name="model.Empreiteiro"/>
+</qualifiedTypeNameHistroy>

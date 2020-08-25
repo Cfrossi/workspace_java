@@ -1,0 +1,26 @@
+package userinterface;
+
+import model.Chefe;
+import model.Comissionado;
+import model.Empreiteiro;
+import model.Funcionario;
+import model.Horista;
+
+public class Home {
+	public static void main(String args[]) {
+		Funcionario lista[] = new Funcionario[4];
+		
+		lista[0] = new Chefe("Caio", 1, 10000, 10, 850);
+		lista[1] = new Comissionado("Caio F", 2, 7800, 464);
+		lista[2] = new Horista("Fernando", 3, 32, 200);
+		lista[3] = new Empreiteiro("João", 4, 25000);
+		
+		for(Funcionario l : lista) {
+			System.out.println("Nome = "+ l.getNome());
+			System.out.println(l.calcularSalario());
+		}
+		
+		
+	}
+
+}

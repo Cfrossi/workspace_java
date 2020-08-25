@@ -1,0 +1,43 @@
+package TimeTeste;
+import java.util.Scanner;
+
+import Time.Time;
+
+public class TimeTeste {
+	public static void main(String args[]) {
+		Scanner teclado;
+		teclado = new Scanner(System.in);
+		
+		Time padrao;
+		Time universal;
+		
+		padrao = new Time();
+		universal = new Time();
+		
+		
+		System.out.println("Hora Universal: ");
+		System.out.println("");
+		System.out.println("Digite a hora: ");
+		padrao.getHora() = teclado.nextInt();
+		
+		System.out.println("Digite os minutos: ");
+		padrao.getMinuto() = teclado.nextInt();
+		
+		System.out.println("Digite os segundos: ");
+		padrao.getSegundo();
+		
+		
+		System.out.println("Hora Universal: ");
+		System.out.println("");
+		System.out.println("Digite a hora: ");
+		universal.getHora() = teclado.nextInt();
+		
+		System.out.println("Digite os minutos: ");
+		universal.getMinuto() = teclado.nextInt();
+		
+		System.out.println("Digite os segundos: ");
+		universal.getSegundo();
+		
+	}
+
+}

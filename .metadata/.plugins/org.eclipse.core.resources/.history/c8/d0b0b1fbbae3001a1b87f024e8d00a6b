@@ -1,0 +1,10 @@
+
+public class HelloPessoa {
+	public static void main(String args[]) {
+		Pessoa p;
+		p = new Pessoa(1, "Caio", "caio@caio.com", "119999999", "A", 1, "1", "cidade", "sao ber", "sp", "09771", true);
+		
+		System.out.println(p.getNome());
+	}
+
+}

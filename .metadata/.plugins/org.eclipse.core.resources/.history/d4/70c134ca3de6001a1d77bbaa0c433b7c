@@ -1,0 +1,50 @@
+package CartaoCash;
+
+public class CartaoCashback extends CartaoPrePago {
+	private int tipo;
+	double cashback;
+	
+
+	public CartaoCashback(String numeroCartao, String nomeTitular, int anoValidade, int mesValidade, double saldo, int tipo) {
+		super(numeroCartao, nomeTitular, anoValidade, mesValidade, saldo);
+		this.tipo = tipo;
+		// TODO Auto-generated constructor stub
+	}
+
+	public int getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(int tipo) {
+		this.tipo = tipo;
+	}
+	
+	
+	public void comprar(double valor) {
+		if (tipo == 1) {
+			saldo = saldo -valor;
+			cashback = valor * 0.08;
+			saldo = saldo + cashback;
+		}
+		else if (tipo == 2){
+			saldo = saldo -valor;
+			cashback = valor * 0.05;
+			saldo = saldo + cashback;
+		}
+		else if(tipo == 3) {
+			saldo = saldo -valor;
+			cashback = valor * 0.03;
+			saldo = saldo + cashback;
+		}
+		
+		
+		
+	}
+
+	@Override
+	public String toString() {
+		return "Número cartão = " + numeroCartao + " ,Nome Titular = " + nomeTitular + " ,Ano de Validade = " +anoValidade+ 
+				" ,Mês Validade = "+ mesValidade + " ,Saldo = "+ saldo + " ,Tipo = " +tipo+ "Cashback = " + cashback;
+		}
+	
+}
